@@ -8,4 +8,4 @@ for i in range(20):
     email = "'" + fake.email() + "'"
     country = "'" + fake.country() + "'"
     res += f"INSERT INTO public.deletes (id, fname, email, country) VALUES({id}, {fname}, {email},{country}); \n"
-print(res)
+prinigin t(res)
